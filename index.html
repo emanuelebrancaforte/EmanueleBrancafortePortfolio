@@ -1,0 +1,536 @@
+<html lang="en" class="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Kanit:wght@200;600;800&family=Prompt:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Emanuele Brancaforte</title>
+    <link rel="icon" href="assets/img/icon.png">
+    <style type="text/css" id="operaUserStyle"></style>
+    <style>
+        .Typewriter__cursor {
+            -webkit-animation: Typewriter-cursor 1s infinite;
+            animation: Typewriter-cursor 1s infinite;
+            margin-left: 1px
+        }
+
+        @-webkit-keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+
+        @keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+    </style>
+    <style type="text/css"></style>
+</head>
+
+<body style="height: 100%;">
+    <!--Intro animation-->
+    <div class="intro">
+        <h1 class="logo-header">
+            <div id="welcome"></div>
+            </h1>
+    </div>
+
+    <header class="l-header" id="head">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <nav class="nav bd-grid">
+            <div class="nav_logo">
+                <a href="#home"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list" id="navlist">
+                    <li class="nav_item"><a href="#home" class="nav_link active">HOME</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">SKILLS</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">WORK</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">PROJECTS</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        
+        <!-- HOME -->
+        <section class="home bd-grid fixed-elements" id="home">
+            <!--<div class="bg_home" style="background-image: url('assets/img/me_bg_3.png');
+            background-repeat: no-repeat;
+            background-size: cover;"></div>-->
+            <div class="home_data"> 
+                <div class="home_title">
+                    <div class="title-text">HEY, I'M</div>
+                    <div class="title-line"></div>
+                </div>
+                <div class="home_title-color">
+                    <span class="fade-r">E</span><span class="fade-r">M</span><span class="fade-r">A</span><span
+                        class="fade-r">N</span><span class="fade-r">U</span><span class="fade-r">E</span><span
+                        class="fade-r">L</span><span class="fade-r">E</span>
+                </div>
+                <div id="autoWrite"></div>
+            </div>
+
+            <div class="home_social">
+                <a href="https://github.com/emanuelebrancaforte" target="_blank" class="home_social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://it.linkedin.com/in/emanuele-brancaforte-8b65b41ab" target="_blank" class="home_social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/emanuele.brancaforte" target="_blank" class="home_social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/strong_branca" target="_blank" class="home_social-icon"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+             <!-- ARROW -->
+            <div class="arrow animated bounce">
+                <a href="#about"><img src="assets/img/icon/arrow.png" alt=""></a>
+            </div>
+
+            <div class="home_img">
+                <img src="/assets/img/me.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section " id="about">
+            <h2 class="section-title">
+                <span class="fade-r">A</span><span class="fade-r"><span class="fade-r">B</span><span
+                        class="fade-r">O</span><span class="fade-r"><span class="fade-r">U</span><span class="fade-r"><span
+                                class="fade-r">T</span><span class="fade-r">
+            </h2>
+        
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="assets/img/about.jpg">
+                </div>
+        
+                <div>
+                    <h2 class="about_subtitle">ME</h2>
+                    <p class="about_text">I am a passionate software developer in the field of design and web development, with
+                        a strong interest in innovation and creativity.
+                        I have devoted time and energy to gaining a solid understanding of several programming languages and
+                        frameworks, which allow me to successfully tackle a wide range of challenges in my work.
+                        Each project is an opportunity for me to showcase my creativity and problem solving skills.
+                        My attention to detail and aesthetics allows me to create clean and attractive layouts, while my
+                        technical knowledge allows me to implement advanced functionality.
+                        I am always looking for new challenges and opportunities for professional growth.
+        
+                    </p>
+                </div>
+                <div>
+                    <h2 class="about_subtitle">STUDY</h2>
+                    <p class="about_text">I began my course of study at the M. Raeli Institute in Noto, where I received my
+                        Liceo Scientifico diploma in 2017. During these years, I acquired extensive theoretical and practical
+                        knowledge that provided me with a solid foundation for my academic future.
+                        Subsequently, I continued my studies at the University of Catania where I graduated in Computer
+                        Engineering in 2022. During my university career, I deepened my skills in science, technology and
+                        programming through specialized courses and challenging projects.
+                        Here, I had the opportunity to collaborate with passionate colleagues, creating a dynamic and enriching
+                        learning environment.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- INTEREST -->
+            
+            <!--       <h2 class="section-title">
+                        <span class="fade-r">I</span><span class="fade-r"><span class="fade-r">N</span><span
+                                class="fade-r">T</span><span class="fade-r"><span class="fade-r">E</span><span class="fade-r"><span
+                                        class="fade-r">R</span><span class="fade-r">
+                    </h2>
+                    -->
+                    <div class="interest_container section">
+
+                        <div class="interest_data">
+                            <div class="skills_names">
+                                <i class="fa-sharp fa-solid fa-code"></i>
+                                <span class="interest_name">CODING</span>
+                                <p class="interest_text">"Coding allows me to translate ideas into reality, 
+                                    a universal language that brings my digital creations to life."</p>
+                            </div>
+                        </div>
+                        <div class="interest_data">
+                            <div class="skills_names">
+                                <i class="fa-sharp fa-solid fa-dumbbell"></i>
+                                <span class="interest_name">GYM</span>
+                                <p class="interest_text">"The gym is my refuge, 
+                                    where I challenge myself and sculpt my body to reach my full potential."</p>
+                            </div>
+                        </div>
+                        <div class="interest_data">
+                            <div class="skills_names">
+                                <i class="fa-sharp fa-solid fa-microchip"></i>
+                                <span class="interest_name">TECHNOLOGY</span>
+                                <p class="interest_text">"Technology is the engine of progress, 
+                                    a relentless source of innovation and solutions that make the future ever more fascinating."</p>
+                            </div>
+                        </div>
+                        <div class="interest_data">
+                            <div class="skills_names">
+                                <i class="fa-sharp fa-solid fa-camera"></i>   
+                                <span class="interest_name">PHOTOGRAPHY</span>
+                                <p class="interest_text">"Photography captures the essence of the moment, with a simple snapshot, 
+                                    making eternal moments of beauty and emotion."</p>
+                            </div>
+                        </div>
+                    </div>
+        
+    
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">
+                <span class="fade-r">S</span><span class="fade-r">K</span><span class="fade-r"><span
+                        class="fade-r">I</span><span class="fade-r">L</span><span class="fade-r"><span
+                            class="fade-r">L</span><span class="fade-r"><span class="fade-r">S</span><span
+                                class="fade-r">
+            </h2>
+            <div class="skills_container bd-grid">
+                
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="fa-brands fa-html5 skills_icon"></i>
+                            <span class="skills_name">HTML</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class="fa-brands fa-css3-alt skills_icon"></i>
+                            <span class="skills_name">CSS</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-brands fa-js skills_icon'></i>
+                            <span class="skills_name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-brands fa-react skills_icon'></i>
+                            <span class="skills_name">REACT</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+                
+
+                
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-brands fa-node-js skills_icon'></i>
+                            <span class="skills_name">NODE JS</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <link rel="icon" href="https://codelikeadev.com/favicon.ico">
+                            <i class='skills_icon'><img src="assets/img/icon/c-sharp.png"></img></i>
+                            <span class="skills_name">C SHARP</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-brands fa-java skills_icon'></i>
+                            <span class="java skills_name">JAVA</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='skills_icon'><img src="assets/img/icon/spring.png"></img></i>
+                            <span class="skills_name">SPRING</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+               
+
+                
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='skills_icon'><img src="assets/img/icon/spring-boot.png"></img></i>
+                            <span class="skills_name">SPRING BOOT</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-brands fa-php skills_icon'></i>
+                            <span class="skills_name">PHP</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='skills_icon'><img src="assets/img/icon/c.png"></img></i>
+                            <span class="skills_name">C</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='fa-solid fa-database skills_icon'></i>
+                            <span class="skills_name">MySQL</span>
+                        </div>
+                        <div class="skills_bar skills_"></div>
+                    </div>
+                
+
+            </div>
+            <!-- SOFT SKILLS -->
+                <div class="skills" id="soft-skills">
+                    <div class="skills_container bd-grid">
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">STRESS MANAGEMENT</span>
+                            <div class="progress">
+                                <div style="width:85%" class="progress-value"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">PROBLEM SOLVING</span>
+                            <div class="progress">
+                                <div style="width:90%" class="progress-value"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">INTERPERSONAL RELATIONSHIP</span>
+                            <div class="progress">
+                                <div style="width:70%" class="progress-value"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">PLANNING AND ORGANIZATION</span>
+                            <div class="progress">
+                                <div style="width:95%" class="progress-value"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">TEAM WORK</span>
+                            <div class="progress">
+                                <div style="width:80%" class="progress-value"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skills_data">
+                            <span class="soft-skills_name">CREATIVITY</span>
+                            <div class="progress">
+                                <div style="width:95%" class="progress-value"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+                
+
+
+        <!-- WORK -->
+        <section class="work section" id="work" 
+        style="background-image: url('assets/img/work2.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;">
+                <div class="overlay"></div>
+            <h2 class="section-title">
+              <span class="fade-r">W</span><span class="fade-r">O</span><span class="fade-r">R<span class="fade-r">K</span>
+            </h2>
+            <div class="work_container bd-grid">
+              <div>
+                <h2 class="about_subtitle">DXC TECHNOLOGY</h2>
+                <p class="about_text">I currently work at DXC Technology, a leading consulting firm. 
+                  My role is Junior Software Engineer and I am excited to be part of a dynamic team of professionals with varying levels of experience.
+                  My project involves the management and maintenance of a number of portals, used by agencies in the insurance industry.
+                  This is my work experience in the industry, and so far, I must admit it has been rewarding, pushing me to hone my skills in back-end development.
+                  I am sure it is an excellent opportunity to grow professionally and make the most of my skills.
+                </p>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          
+          
+          
+          
+
+        <!-- PROJECTS -->
+        <section class="project section" id="projects">
+            <h2 class="section-title">
+                <span class="fade-r">P</span><span class="fade-r">R</span><span class="fade-r">O</span><span
+                    class="fade-r">J</span><span class="fade-r">E</span><span class="fade-r">C</span><span
+                    class="fade-r">T</span><span class="fade-r">S</span>
+            </h2>
+            <div class="work_container bd-grid">
+                <a href="https://github.com/emanuelebrancaforte/PersonalityCartoon" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj0_1.png" alt="">
+                </a>
+                <a href="https://github.com/emanuelebrancaforte/StrongBook" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj1_1.png" alt="">
+                </a>
+                <a href="https://github.com/emanuelebrancaforte/LastStudent" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj2_1.png" alt="">
+                </a>
+                <a href="https://github.com/emanuelebrancaforte/SoccerLeague" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj3_1.PNG" alt="">
+                </a>
+                <a href="https://github.com/emanuelebrancaforte/SimplyTask" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj4_1.png" alt="">
+                </a>
+                <a href="https://github.com/emanuelebrancaforte/EmanueleBrancafortePortfolio" target="_blank" class="project_img">
+                    <img src="assets/img/projects/proj5_1.png" alt="">
+                </a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1-P5JXTpMd4jV1wFF90RQISh8MzDw-sfl/view?usp=sharing" target="_blank"
+                class="button cv">DOWNLOAD CV</a>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title"><span class="fade-r">C</span><span class="fade-r">O</span><span class="fade-r">N</span><span
+                class="fade-r">T</span><span class="fade-r">A</span><span class="fade-r">C</span><span
+                class="fade-r">T</span></h2>
+            <div class="contact_container ">
+                
+                <div>
+                    <p class="footer_title">Address<br>
+                    <p class="footer_subtitle">Noto (SR), Sicily, Italy</p>
+                </div>
+                <div>
+                    <p class="footer_title">E-mail<br>
+                    <p class="footer_subtitle">e.brancaforte@gmail.com</p>
+                </div>
+                <a href="mailto:ema.brancaforte@hotmail.it"class="button cv">SEND EMAIL</a>
+            </div>
+        </section>
+
+
+        
+
+        <footer class="footer">
+            <p class="footer_title">EMANUELE BRANCAFORTE <br>
+                <p class="footer_subtitle">Software Engineer</p>
+            </p>
+            
+            <div class="footer_social">
+                <a href="https://github.com/emanuelebrancaforte" target="_blank" class="footer_icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://it.linkedin.com/in/emanuele-brancaforte-8b65b41ab" target="_blank" class="footer_icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/emanuele.brancaforte" target="_blank" class="footer_icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/strong_branca" target="_blank" class="footer_icon"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="footer_subtitle">© 2023 copyright all right reserved</p><br>
+            <p class="footer_subtitle">Designed and programmed by Emanuele Brancaforte</p>
+        </footer>
+            
+            
+        </footer>
+    </main>
+
+
+
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Autowriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Particles -->
+    <script src=".assets/js/particles.js"></script>
+
+    <!-- Javascript -->
+    <script src=" assets/js/app.js"></script>
+
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Flipster CSS -->
+    <link rel="stylesheet" href="dist/jquery.flipster.min.css">
+
+    <!-- Flipster Js -->
+    <script src="dist/jquery.flipster.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 1) {
+                    $('.arrow').addClass('fade');
+                } else {
+                    $('.arrow').removeClass('fade');
+                }
+            })
+        });
+        </script>
+  
+
+    <div
+        style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+        <div
+            style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+        </div>
+        <div class="g-recaptcha-bubble-arrow"
+            style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+        </div>
+        <div class="g-recaptcha-bubble-arrow"
+            style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+        </div>
+        <div style="z-index: 2000000000; position: relative;"><iframe title="La verifica reCAPTCHA scade tra due minuti"
+                src="https://www.google.com/recaptcha/api2/bframe?hl=it&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9"
+                name="c-5o5ab23ny2f" frameborder="0" scrolling="no"
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                style="width: 100%; height: 100%;"></iframe></div>
+    </div>
+</body>
+
+</html>
